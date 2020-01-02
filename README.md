@@ -8,17 +8,16 @@ As you can see from the figures, New York is a city with a high population and p
 When we consider all these problems, we can create a map and information chart where the real estate index is placed on New York and each district is clustered according to the venue density.
 
 ### A.2. Project Summary
-Using data science techniques to analyze the following questions:
+Using data science techniques to analyze the following questions:  
+- Is the surrounding venues can effect the price of real estates?  
+- What kind of surrounding venues, and to what extend, can effect the price?  
+- Can we use the surrounding venue to estimate the value of an accommodation over the average price of one area? And to what degree of confidence?  
 
-Is the surrounding venues can effect the price of real estates?
-What kind of surrounding venues, and to what extend, can effect the price?
-Can we use the surrounding venue to estimate the value of an accommodation over the average price of one area? And to what degree of confidence?
 The data will be:
+- Average price of 1 Standard residential Unit in New York city's neighborhoods. ([kaggle](https://www.kaggle.com/new-york-city/nyc-property-sales))
+- Venues surrounding each neighborhoods. ([FourSquare API](https://developer.foursquare.com/))  
 
-Average price of 1 Standard residential Unit in New York city's neighborhoods. [3]
-Venues surrounding each neighborhoods using Foursquare API [2]
 Target audiences will be:
-
-Home buyers, who can roughly estimate the value of a target house over the average.
-Planners, who can decide which venues to place around their product, so that the price is maximized.
-Any normal person, who is wondering if that in-process building will effect his/her home's value.
+- Home buyers, who can roughly estimate the value of a target house over the average.  
+- Planners, who can decide which venues to place around their product, so that the price is maximized.  
+- Any normal person, who is wondering if that in-process building will effect his/her home's value.
